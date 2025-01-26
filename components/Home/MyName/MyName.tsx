@@ -92,26 +92,22 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider "
       >
-        I&apos;m a{" "}
-        <span className="text-green-500">Full Stack Software Engineer</span>{" "}
-        with strong{" "}
-        <span className="text-green-500">problem-solving skills</span>,
-        specializing in creating exceptional digital experiences.
-        <br className="3xl:block hidden" /> With expertise in both{" "}
-        <span className="text-green-500">front-end</span> and{" "}
-        <span className="text-green-500">back-end development</span>, I work
-        with a diverse range of technologies, including{" "}
-        <span className="text-green-500"> web3</span>
-        <br className="3xl:block hidden" /> and traditional web applications. I
-        enjoy solving challenging projects that drive{" "}
-        <span className="text-green-500"> innovation</span> and deliver
-        high-quality results.
-        <br className="3xl:block hidden" /> My experience in{" "}
-        <span className="text-green-500">leading development teams</span> has
-        honed my ability to collaborate effectively and translate ideas into
-        functional solutions.
-        <br className="3xl:block hidden" /> I am excited to contribute to
-        dynamic projects that push the boundaries of technology.
+        I&apos;m <span className="text-green-500">Full Stack Developer</span>{" "}
+        skilled in designing and implementing innovative digital solutions that
+        combine seamless <span className="text-gren-500">user experiences</span>{" "}
+        with efficient <span className="text-green-500">backend systems</span>.
+        With expertise in technologies like React, Next.js, Node.js, and Prisma,
+        I specialize in building scalable and maintainable web applications. My
+        experience includes working on real-time systems, implementing
+        microservices with Docker, and optimizing project performance through
+        clean and efficient code. I enjoy{" "}
+        <span className="text-green-500">solving complex problems</span>,
+        <span className="text-green-500"> collaborating with teams</span>, and{" "}
+        <span className="text-green-500">
+          delivering high-quality solutions
+        </span>
+        . I am eager to contribute to impactful projects that leverage the
+        latest advancements in web development.
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}

@@ -29,7 +29,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           duration={200}
         >
           &gt; 01.{" "}
-          <span className="text-white hover:cursor-pointer hover:text-[#ff0000] duration-300">
+          <span className="text-white hover:cursor-pointer hover:text-green-500 duration-300">
             About
           </span>
         </ReactScrollLink>
@@ -48,7 +48,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           duration: props.finishedLoading ? 0 : 1.2,
           delay: props.finishedLoading ? 0 : 9.7,
         }}
-        className="text-[#ff0000]"
+        className="text-green-500"
       >
         <ReactScrollLink
           to="WhereIhaveWorkedSection"
@@ -58,7 +58,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           duration={200}
         >
           &gt; 02.{" "}
-          <span className="text-white  hover:cursor-pointer hover:text-[#ff0000] duration-300">
+          <span className="text-white  hover:cursor-pointer hover:text-green-500 duration-300">
             Experience
           </span>
         </ReactScrollLink>
@@ -77,7 +77,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           duration: props.finishedLoading ? 0 : 1.2,
           delay: props.finishedLoading ? 0 : 9.8,
         }}
-        className="text-[#ff0000]"
+        className="text-green-500"
       >
         <ReactScrollLink
           to="SomethingIveBuiltSection"
@@ -87,7 +87,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           duration={200}
         >
           &gt; 03.{" "}
-          <span className="text-white  hover:cursor-pointer hover:text-[#ff0000] duration-300">
+          <span className="text-white  hover:cursor-pointer hover:text-green-500 duration-300">
             Work
           </span>
         </ReactScrollLink>
@@ -106,7 +106,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           duration: props.finishedLoading ? 0 : 1.2,
           delay: props.finishedLoading ? 0 : 10,
         }}
-        className="text-[#ff0000]"
+        className="text-green-500"
       >
         <ReactScrollLink
           to="GetInTouchSection"
@@ -116,7 +116,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           duration={200}
         >
           &gt; 04.{" "}
-          <span className="text-white  hover:cursor-pointer hover:text-[#ff0000] duration-300">
+          <span className="text-white  hover:cursor-pointer hover:text-green-500 duration-300">
             Contact
           </span>
         </ReactScrollLink>
@@ -137,7 +137,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
             delay: props.finishedLoading ? 0 : 10.2,
           }}
           // onClick={()=>{router.push("/resume.pdf")}}
-          className="text-[#ff0000] border border-spacing-2 py-2 px-3 rounded-sm border-text-[#ff0000] hover:bg-ResumeButtonHover"
+          className="text-green-500 border border-spacing-2 py-2 px-3 rounded-sm border-text-[#ff0000] hover:bg-ResumeButtonHover"
         >
           Resume
         </motion.button>
