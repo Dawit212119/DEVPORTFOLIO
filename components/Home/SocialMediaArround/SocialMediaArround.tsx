@@ -50,7 +50,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             <IconClickableWithAnimation
               Icon={LinkedinIcon}
               target={"_blank"}
-              href={"www.linkedin.com/in/dawit-workye-bb8b27285"}
+              href={"https://www.linkedin.com/in/dawit-workye-bb8b27285/"}
             />
           </div>
           <div className="h-28 w-0.5 bg-gray-400"></div>
