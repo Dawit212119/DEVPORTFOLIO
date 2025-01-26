@@ -10,8 +10,8 @@ export default function Logo(props: { finishedLoading: boolean }) {
       }}
       transition={{
         type: "spring",
-        delay: props.finishedLoading ? 0 : 8,
-        duration: 0,
+        delay: props.finishedLoading ? 0 : 0.8, // Added reasonable delay for better animation
+        duration: 0.8, // Added duration for smoother animation
       }}
       className="relative h-12 w-10"
     >
