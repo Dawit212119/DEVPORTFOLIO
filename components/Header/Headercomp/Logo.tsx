@@ -4,8 +4,10 @@ import { motion } from "framer-motion";
 export default function Logo(props: { finishedLoading: boolean }) {
   return (
     <motion.div
-      initial={{ y: props.finishedLoading ? 0 : 8, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
+      animate={{
+        y: props.finishedLoading ? 0 : 8,
+        opacity: props.finishedLoading ? 1 : 0,
+      }}
       transition={{
         type: "spring",
         delay: props.finishedLoading ? 0 : 8,
