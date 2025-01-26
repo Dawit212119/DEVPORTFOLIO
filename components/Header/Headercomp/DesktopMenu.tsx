@@ -19,7 +19,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           duration: props.finishedLoading ? 0 : 1.2,
           delay: props.finishedLoading ? 0 : 9.4,
         }}
-        className=" text-[#ff0000]"
+        className=" text-green-500"
       >
         <ReactScrollLink
           to="aboutSection"
