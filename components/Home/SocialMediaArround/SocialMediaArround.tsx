@@ -43,11 +43,13 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             {/* Github Icon */}
             <IconClickableWithAnimation
               Icon={GithubIcon}
+              target={"_blank"}
               href={"https://github.com/Dawit212119/"}
             />
             {/* Linkedin icon */}
             <IconClickableWithAnimation
               Icon={LinkedinIcon}
+              target={"_blank"}
               href={"www.linkedin.com/in/dawit-workye-bb8b27285"}
             />
           </div>
