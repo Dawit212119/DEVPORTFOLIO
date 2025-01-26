@@ -3,9 +3,9 @@ import Startup from "../components/Header/StartupLogo/Startup";
 import MyName from "../components/Home/MyName/MyName";
 import { useContext, useEffect, useState, useRef } from "react";
 import SocialMediaArround from "../components/Home/SocialMediaArround/SocialMediaArround";
-import AboutMe from "../components/Home/AboutMe/AboutMe";
+// import AboutMe from "../components/Home/AboutMe/AboutMe";
 import ThisCantBeReached from "../components/Home/ThisSiteCantBeReached/ThisCantBeReached";
-import WhereIHaveWorked from "../components/Home/WhereIHaveWorked/WhereIHaveWorked";
+// import WhereIHaveWorked from "../components/Home/WhereIHaveWorked/WhereIHaveWorked";
 import SomethingIveBuilt from "../components/Home/SomethingIveBuilt/SomethingIveBuilt";
 import GetInTouch from "../components/Home/GetInTouch/GetInTouch";
 import Footer from "../components/Footer/Footer";
@@ -70,7 +70,7 @@ export default function Home() {
   const meta = {
     title: "Dawit Workye - Software Engineer",
 
-    image: "port.png",
+    image: "/port.png",
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
@@ -80,13 +80,12 @@ export default function Home() {
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
-        <meta property="og:url" content={`https://anaflous.com`} />
         <link rel="canonical" href={``} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="" />
+        {/* <meta name="twitter:card" content="summary_large_image" /> */}
+        {/* <meta name="twitter:site" content="" /> */}
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:image" content={meta.image} />
       </Head>
@@ -114,19 +113,15 @@ export default function Home() {
         <SocialMediaArround
           finishedLoading={context.sharedState.finishedLoading}
         />
-        {context.sharedState.finishedLoading ? (
-          <AboutMe ref={aboutRef} />
+        {/* {context.sharedState.finishedLoading ? (
+          // <AboutMe ref={aboutRef} />
         ) : (
-          <></>
-        )}
-        {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
+          // <></>
+        )} */}
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
-          <Footer
-            githubUrl={"https://github.com/hktitof/my-website"}
-            hideSocialsInDesktop={true}
-          />
+          <Footer githubUrl={""} hideSocialsInDesktop={true} />
         ) : (
           <></>
         )}
