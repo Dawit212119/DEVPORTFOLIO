@@ -69,8 +69,7 @@ export default function Home() {
 
   const meta = {
     title: "Dawit Workye - Software Engineer",
-
-    image: "/port.png",
+    image: "/port.jpg",
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
