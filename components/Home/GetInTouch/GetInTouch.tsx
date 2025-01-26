@@ -48,7 +48,7 @@ export default function GetInTouch() {
           </button>
         ) : (
           <a
-            href="mailto:abdellatif@anaflous.com"
+            href="mailto:dawitworkye794@gmail.com"
             target={"_blank"}
             rel="noreferrer"
           >
