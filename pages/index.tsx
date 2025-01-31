@@ -14,6 +14,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
 import ScreenSizeDetector from "../components/CustomComponents/ScreenSizeDetector";
+import AboutMe from "../components/Home/AboutMe/AboutMe";
 
 export default function Home() {
   const [ShowElement, setShowElement] = useState(false);
@@ -113,10 +114,11 @@ export default function Home() {
           finishedLoading={context.sharedState.finishedLoading}
         />
         {/* {context.sharedState.finishedLoading ? (
-          // <AboutMe ref={aboutRef} />
+          <AboutMe ref={aboutRef} />
         ) : (
           // <></>
         )} */}
+        {<AboutMe ref={aboutRef} />}
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
