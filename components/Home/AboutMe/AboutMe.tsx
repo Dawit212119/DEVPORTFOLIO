@@ -7,12 +7,13 @@ export default function AboutMe(props) {
       "Nextjs/React",
       "TypeScript/JavaScript",
       "Tailwind CSS",
+      "Zod",
       "Expressjs",
       "MongoDb",
       "Node.js",
       "Data structure and algorthim",
     ],
-    ["Java", "Mongodb", "RESTful APIs", "c++", "Phyton", "SQL"],
+    ["Java", "RESTful APIs", "c++", "Phyton", "SQL"],
   ];
   return (
     <div
@@ -29,10 +30,10 @@ export default function AboutMe(props) {
           <div className="flex flex-row  items-center mr-4">
             <ArrowIcon
               className={
-                "flex-none h-4 md:h-6 w-4 md:w-5 translate-y-[0.5px] text-[#ff0000]"
+                "flex-none h-4 md:h-6 w-4 md:w-5 translate-y-[0.5px] text-green-500"
               }
             />
-            <span className="text-[#ff0000] font-Header text-sm  sm:text-xl">
+            <span className="text-green-500 font-Header text-sm  sm:text-xl">
               {" "}
               01.
             </span>
@@ -50,7 +51,7 @@ export default function AboutMe(props) {
               <span className="text-gray-400 ">
                 Hi, I&apos;m Dawit Workye, a 3rd-year Computer Science student
                 at Addis Ababa University .I&apos;m a drive{" "}
-                <span className="text-[#ff0000]">full-stack developer</span>{" "}
+                <span className="text-green-500">full-stack developer</span>{" "}
                 with a strong foundation in web development technologies such as
                 React, Node.js, and Next.js. I have a deep interest in building
                 dynamic, user-friendly applications and continuously strive to
@@ -79,7 +80,7 @@ export default function AboutMe(props) {
                         key={index}
                         className="flex flex-row items-center space-x-2"
                       >
-                        <ArrowIcon className={"h-3 w-3 text-[#ff0000]"} />
+                        <ArrowIcon className={"h-3 w-3 text-green-500"} />
                         <span className="text-gray-400 sm:text-sm text-xs">
                           {tech}
                         </span>
@@ -96,7 +97,7 @@ export default function AboutMe(props) {
                         key={index}
                         className="flex flex-row items-center space-x-2"
                       >
-                        <ArrowIcon className={"h-3 w-3 text-[#ff0000]"} />
+                        <ArrowIcon className={"h-3 w-3 text-green-500"} />
                         <span className="text-gray-400 sm:text-sm text-xs">
                           {tech}
                         </span>
@@ -111,12 +112,12 @@ export default function AboutMe(props) {
           <div className="group relative lg:w-96 lg:h-96 md:w-72 md:h-72 md:block hidden ">
             <div
               className="group-hover:translate-x-3 group-hover:translate-y-3
-               duration-300 absolute w-5/6 h-5/6 border-2 text-[#ff0000] translate-x-5 
+               duration-300 absolute w-5/6 h-5/6 border-2 text-green-500 translate-x-5 
                translate-y-5 rounded"
             ></div>
 
             <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
-              <div className="absolute w-full h-full group-hover:opacity-0 bg-[#ff0000] opacity-10 duration-300 rounded overflow-hidden"></div>
+              <div className="absolute w-full h-full group-hover:opacity-0 text-green-500  opacity-10 duration-300 rounded overflow-hidden"></div>
               <Img
                 src={"port.jpg"}
                 className={"object-contain rounded-lg"}
@@ -126,7 +127,7 @@ export default function AboutMe(props) {
           </div>
           {/* // ?Image in Mobile */}
           <div className=" relative w-full h-48 md:hidden  flex justify-center items-center">
-            <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-[#ff0000]"></div>
+            <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 text-green-500 "></div>
             <div className="absolute w-48 h-full rounded overflow-hidden">
               <Img
                 src={"port.jpg"}
@@ -134,7 +135,7 @@ export default function AboutMe(props) {
                 alt="My Image Not Found"
               />
             </div>
-            <div className="absolute w-48 h-full text-[#ff0000] opacity-10 md:opacity-60  rounded overflow-hidden"></div>
+            <div className="absolute w-48 h-full text-green-500  opacity-10 md:opacity-60  rounded overflow-hidden"></div>
           </div>
         </div>
       </div>
