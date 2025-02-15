@@ -13,7 +13,17 @@ export default function AboutMe(props) {
       "Node.js",
       "Data structure and algorthim",
     ],
-    ["Java", "RESTful APIs", "c++", "Phyton", "SQL"],
+    [
+      "Java",
+      "RESTful APIs",
+      "c++",
+      "Phyton",
+      "prisma",
+      "postgresql",
+      "Aws",
+      "Docker",
+      "SQL",
+    ],
   ];
   return (
     <div

@@ -113,12 +113,12 @@ export default function Home() {
         <SocialMediaArround
           finishedLoading={context.sharedState.finishedLoading}
         />
-        {/* {context.sharedState.finishedLoading ? (
+        {context.sharedState.finishedLoading ? (
           <AboutMe ref={aboutRef} />
         ) : (
-          // <></>
-        )} */}
-        {<AboutMe ref={aboutRef} />}
+          <></>
+        )}
+
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
