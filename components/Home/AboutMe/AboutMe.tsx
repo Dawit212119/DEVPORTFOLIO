@@ -59,18 +59,14 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header text-justify">
               <span className="text-gray-400 ">
-                Hi, I&apos;m Dawit Workye, a 3rd-year Computer Science student
-                at Addis Ababa University .I&apos;m a drive{" "}
-                <span className="text-green-500">full-stack developer</span>{" "}
-                with a strong foundation in web development technologies such as
-                React, Node.js, and Next.js. I have a deep interest in building
-                dynamic, user-friendly applications and continuously strive to
-                expand my skill set by learning new technologies and best
-                practices in the industry. Currently, I am focusing on mastering
-                modern JavaScript frameworks, exploring the intricacies of
-                backend development with Node.js, and diving into the world of
-                data structures and algorithms to improve my problem-solving
-                abilities.
+                Hi, I&apos;m Dawit Workye,a Full-Stack Developer and DevOps
+                Enthusiast passionate about building secure, scalable, and
+                user-friendly applications. I work with technologies like
+                Next.js, Node.js, Prisma, PostgreSQL, Docker, and AWS, and I
+                enjoy solving complex problems through microservices,
+                authentication systems, and event-driven architectures. Always
+                learning and improving, I aim to create meaningful digital
+                solutions that make an impact
               </span>
             </div>
 

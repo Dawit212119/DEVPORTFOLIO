@@ -92,22 +92,12 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider "
       >
-        I&apos;m <span className="text-green-500">Full Stack Developer</span>{" "}
-        skilled in designing and implementing innovative digital solutions that
-        combine seamless <span className="text-gren-500">user experiences</span>{" "}
-        with efficient <span className="text-green-500">backend systems</span>.
-        With expertise in technologies like React, Next.js, Node.js, and Prisma,
-        I specialize in building scalable and maintainable web applications. My
-        experience includes working on real-time systems, implementing
-        microservices with Docker, and optimizing project performance through
-        clean and efficient code. I enjoy{" "}
-        <span className="text-green-500">solving complex problems</span>,
-        <span className="text-green-500"> collaborating with teams</span>, and{" "}
-        <span className="text-green-500">
-          delivering high-quality solutions
-        </span>
-        . I am eager to contribute to impactful projects that leverage the
-        latest advancements in web development.
+        Full-Stack Developer with 2+ years of experience specializing in
+        building and deploying scalable web applications using the MERN stack
+        and Next.js. A proven track record of delivering user-centric solutions,
+        from e-commerce platforms to AI-powered SaaS tools. Strongly interested
+        in leveraging modern technologies like Docker and AI to solve complex
+        problems and create efficient, impactful software.
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}
@@ -124,7 +114,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="mt-12"
       >
-        <a href="" rel="noreferrer">
+        <a href="https://flowcv.com/resume/5t9p267ipcdc" rel="noreferrer">
           <button className="bg-AAprimary text-green-500 border rounded px-4 sm:px-8 py-3 sm:py-4 border-green-500">
             Check out my resume!
           </button>

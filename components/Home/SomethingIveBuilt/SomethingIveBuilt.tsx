@@ -37,26 +37,28 @@ export default function SomethingIveBuilt() {
       <div className="flex flex-col   xl:space-y-36 space-y-8 md:space-y-28">
         <div
           data-aos="fade-up"
-          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+          className="relative md:grid md:grid-cols-12 w-full md:h-96"
         >
           {/* Left image */}
           <div
             className="hidden bg-AAprimary z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
-            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+            <div className="relative rounded w-full h-full col-span-7 ">
               <a
-                // href={"https://mern-esate-fb5y.onrender.com"}
-                target="_blank"
+                href="https://agazh.vercel.app/"
+                target={"_blank"}
                 rel="noreferrer"
               >
                 <div
+                  // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
+
               <Img
-                src={"User.png"}
+                src={"Agazh.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -66,63 +68,252 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"hairstore.png"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
+              <div className="w-full"></div>
+              <span className="text-green-500 sm:text-lg bg-AAprimary px-2 py-1 rounded">
+                Currently Active....
+              </span>
+            </div>
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-green-500 text-base">StartUp</span>
+                <a href="" rel="noreferrer">
+                  <span className=" md:text-gray-200 text-green-500 font-bold text-xl hover:cursor-pointer">
+                    Agazh
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  A digital platform that connects buyers with experts to
+                  provide personalized advice on product selection, budgeting,
+                  and marketplace recommendations. Built to streamline
+                  purchasing decisions and create a revenue-generating
+                  consultation model.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              ></ul>
+              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
+                <GithubIcon link="https://github.com/Dawit212119/Agazh" />
+                <a href="" rel="noreferrer">
+                  <ExternalLink url={""} router={router} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              <Link href={""}>
+                <div
+                  // onClick={}
+                  className="absolute w-full h-full rounded text-green-500
+           transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </Link>
+
+              <Img
+                src={"EGA.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full text-green-500 opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={".png"}
+                  src={"EGA.png"}
                   alt={"Project Screen shot"}
-                  className={`w-full h-full`}
+                  className={`w-full h-full `}
                 />
               </div>
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
-            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
-              <div className="flex flex-col space-y-1  z-10">
-                <span className="text-green-500 text-base"></span>
-                <a
-                  href="https://mern-esate-fb5y.onrender.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className=" md:text-gray-200 text-green-500 font-bold text-xl hover:cursor-pointer">
-                    User
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-green-500 text-base">InternShip</span>
+                <Link href={"/typing"}>
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    EGA
                   </span>
-                </a>
+                </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
-                  I am working on a connected system where{" "}
-                  <span className="text-green-500">users</span> can fill out
-                  route forms, sign up, sign in, and view their route status.
-                  This information is sent to the admin side as notifications,
-                  allowing administrators to identify and manage the most needed
-                  routes efficiently.
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                  Developed EGA, an e-commerce platform for Chewata Awaki,
+                  enabling seamless game purchases and rentals. Utilized
+                  Next.js, Prisma ORM,MongoDb, and Telebirr for full-stack
+                  development, e-commerce functionalities, and payment
+                  integration.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-start"
+               text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Reactjs</span>
-                <span className="pr-4 z-10">Nodejs</span>
-                <span className="pr-4 z-10">Expressjs</span>
+                <span className="pr-4 z-10">Nextjs</span>
+                <span className="pr-4 z-10">Tailwind CSS</span>
+                <span className="pr-4 z-10">Prisma</span>
+                <span className="pr-4 z-10">telebirr</span>
+                <span className="pr-4 z-10">Cloudinary</span>
                 <span className="pr-4 z-10">MongoDB</span>
-                <span className="pr-4 z-10">Tailwind</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {<GithubIcon link="https://github.com/Dawit212119/User" />}
+                <GithubIcon link="EGA.png" />
+                <ExternalLink url={"typing"} router={router} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          >
+            <div className="relative rounded w-full h-full col-span-7 ">
+              {/* <Link href={"/typing"}>
+                <div
+                  // onClick={}
+                  className="absolute w-full h-full rounded bg-AAsecondary 
+           transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </Link> */}
+
+              <a
+                href="https://heroconsultancy-kcip.vercel.app/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <div
+                  // onClick={}
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-30 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+
+              <Img
+                src={"Hero.png"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full text-green-500 opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/img/YPredict-v1.jpg"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full `}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+            col-span-8 flex flex-col items-start md:items-end space-y-3"
+            >
+              <div className="flex flex-col space-y-1 md:items-end z-10">
+                <span className="text-green-500 text-base">Freelance</span>
                 <a
-                  // href="https://mern-esate-fb5y.onrender.com"
-                  // target={"_blank"}
-                  rel="noreferrer"
+                  href="https://heroconsultancy-kcip.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <ExternalLink url={""} router={router} />
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Hero-Counsultancy
+                  </span>
                 </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left ">
+                  I had the opportunity to actively participate in the
+                  development of a project designed to bridge the gap between
+                  individuals seeking{" "}
+                  <span className="text-green-500"> scholarships </span> and{" "}
+                  <span className="text-green-500"> consultancy </span>
+                  organizations. The goal of the system was to create an
+                  intuitive platform that facilitates seamless communication,
+                  guiding users through the process of finding the right
+                  scholarship{" "}
+                  <span className="text-green-500">
+                    {" "}
+                    opportunities{" "}
+                  </span> and{" "}
+                  <span className="text-green-500">
+                    {" "}
+                    receiving expert advice{" "}
+                  </span>{" "}
+                  from consultants. This system was built to streamline the
+                  application process, making it easier for individuals to
+                  access valuable resources and increase their chances of
+                  success in securing scholarships.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">Prisma</span>
+                <span className="pr-4 z-10">Tailwind</span>
+                <span className="pr-4 z-10">Nextjs</span>
+                <span className="pr-4 z-10">Nodemailer</span>
+                <span className="pr-4 z-10">Typescript</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <div className="z-10 flex fle-row space-x-5 ">
+                  <GithubIcon link="https://github.com/Dawit212119/Consultancy" />
+                  <a
+                    href="https://heroconsultancy-kcip.vercel.app/"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
+                    <ExternalLink url={""} router={router} />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -137,18 +328,14 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a
-                // href={"https://mern-esate-fb5y.onrender.com"}
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={""} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
               <Img
-                src={"Admin.png"}
+                src={"DMS.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -163,7 +350,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full text-green-500 opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"mernEstate.png"}
+                  src={"DMS.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
                 />
@@ -175,54 +362,42 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-green-500 text-base"></span>
-                <a
-                  href="https://mern-esate-fb5y.onrender.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <span className="text-green-500 text-base">
+                  Freelance Project
+                </span>
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-green-500 font-bold text-xl hover:cursor-pointer">
-                    Admin Dashboard
+                    Document Mangement System
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
-                  I am currently working on an{" "}
-                  <span className="text-green-500">admin dashboard</span>{" "}
-                  project that allows administrators to manage bus distribution,
-                  oversee routes, and perform actions such as updating,
-                  deleting, and viewing route details efficiently.
+                <p className="text-gray-300 md:text-gray-400 text-left">
+                  A secure and user-friendly web app for organizing, storing,
+                  and accessing digital documents efficiently. Users can upload
+                  documents, categorize them, search easily, and track versions.
+                  Each uploaded document can also have a unique QR code
+                  generated for quick access, all within a responsive interface
+                  for seamless use across devices.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Reactjs</span>
-                <span className="pr-4 z-10">Nodejs</span>
-                <span className="pr-4 z-10">Expressjs</span>
-                <span className="pr-4 z-10">MongoDB</span>
-                <span className="pr-4 z-10">Tailwind</span>
+                <span className="pr-4 z-10">Nextjs</span>
+                <span className="pr-4 z-10">Express</span>
+                <span className="pr-4 z-10">Firebase</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {
-                  <GithubIcon link="https://github.com/Dawit212119/Anbessa-Bus" />
-                }
-                <a
-                  // href="https://mern-esate-fb5y.onrender.com"
-                  // target={"_blank"}
-                  rel="noreferrer"
-                >
+                {<GithubIcon link="https://github.com/Dawit212119/DMS" />}
+                <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
             </div>
           </div>
         </div>
-
-        {/* // TODO : to here  */}
-        {/* // ?  Project  1 Ens Vision */}
         <div
           data-aos="fade-up"
           className="relative md:grid md:grid-cols-12 w-full md:h-96  "
@@ -323,128 +498,6 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
-
-        <div
-          data-aos="fade-up"
-          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
-        >
-          {/* Left image */}
-          <div
-            className="hidden bg-AAprimary z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center"
-          >
-            <div className="relative rounded w-full h-full col-span-7 ">
-              {/* <Link href={"/typing"}>
-                <div
-                  // onClick={}
-                  className="absolute w-full h-full rounded bg-AAsecondary 
-           transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
-              </Link> */}
-
-              <a
-                href="https://heroconsultancy-kcip.vercel.app/"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <div
-                  // onClick={}
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-30 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
-              </a>
-
-              <Img
-                src={"Hero.png"}
-                alt={"Project Screen shot"}
-                className={`w-full rounded h-full `}
-              />
-            </div>
-          </div>
-
-          {/* right Content */}
-          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0">
-              <div className="relative w-full h-full">
-                <div className="absolute w-full h-full text-green-500 opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
-                  src={"/img/YPredict-v1.jpg"}
-                  alt={"Project Screen shot"}
-                  className={`w-full h-full `}
-                />
-              </div>
-            </div>
-
-            <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end space-y-3"
-            >
-              <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-green-500 text-base">Recent Project</span>
-                <a
-                  href="https://heroconsultancy-kcip.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Hero-Counsultancy
-                  </span>
-                </a>
-              </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left ">
-                  I had the opportunity to actively participate in the
-                  development of a project designed to bridge the gap between
-                  individuals seeking{" "}
-                  <span className="text-green-500"> scholarships </span> and{" "}
-                  <span className="text-green-500"> consultancy </span>
-                  organizations. The goal of the system was to create an
-                  intuitive platform that facilitates seamless communication,
-                  guiding users through the process of finding the right
-                  scholarship{" "}
-                  <span className="text-green-500">
-                    {" "}
-                    opportunities{" "}
-                  </span> and{" "}
-                  <span className="text-green-500">
-                    {" "}
-                    receiving expert advice{" "}
-                  </span>{" "}
-                  from consultants. This system was built to streamline the
-                  application process, making it easier for individuals to
-                  access valuable resources and increase their chances of
-                  success in securing scholarships.
-                </p>
-              </div>
-              <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-end"
-              >
-                <span className="pr-4 z-10">Prisma</span>
-                <span className="pr-4 z-10">Tailwind</span>
-                <span className="pr-4 z-10">Nextjs</span>
-                <span className="pr-4 z-10">Nodemailer</span>
-                <span className="pr-4 z-10">Typescript</span>
-              </ul>
-              <div className="z-10 flex fle-row space-x-5 ">
-                <div className="z-10 flex fle-row space-x-5 ">
-                  <GithubIcon link="https://github.com/Dawit212119/Consultancy" />
-                  <a
-                    href="https://heroconsultancy-kcip.vercel.app/"
-                    target={"_blank"}
-                    rel="noreferrer"
-                  >
-                    <ExternalLink url={""} router={router} />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* // ?  Project 2 - FeverTokens */}
         <div
           data-aos="fade-up"
           className="relative md:grid md:grid-cols-12 w-full md:h-96  "
@@ -456,7 +509,7 @@ export default function SomethingIveBuilt() {
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a
-                href={"https://worldwisetour.netlify.app/"}
+                href={"https://mern-esate-fb5y.onrender.com"}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -466,7 +519,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
               <Img
-                src={"world.png"}
+                src={"Admin.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -481,7 +534,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full text-green-500 opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"world.png"}
+                  src={"mernEstate.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
                 />
@@ -493,37 +546,43 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-green-500 text-base">Recent Project</span>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <span className="text-green-500 text-base"></span>
+                <a
+                  href="https://mern-esate-fb5y.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span className=" md:text-gray-200 text-green-500 font-bold text-xl hover:cursor-pointer">
-                    WorldWise
+                    Admin Dashboard
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left">
-                  I developed a{" "}
-                  <span className="text-green-500"> tour web application </span>{" "}
-                  that allows users to save their tours and directs them to the
-                  specific location on a map. This project is still in
-                  development, and I have plans to expand its{" "}
-                  <span className="text-green-500"> features </span> and
-                  <span className="text-green-500"> functionality </span>{" "}
-                  functionality to enhance user experience and usability.
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
+                  I am currently working on an{" "}
+                  <span className="text-green-500">admin dashboard</span>{" "}
+                  project that allows administrators to manage bus distribution,
+                  oversee routes, and perform actions such as updating,
+                  deleting, and viewing route details efficiently.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">React</span>
-                <span className="pr-4 z-10">leaflet</span>
+                <span className="pr-4 z-10">Reactjs</span>
+                <span className="pr-4 z-10">Nodejs</span>
+                <span className="pr-4 z-10">Expressjs</span>
+                <span className="pr-4 z-10">MongoDB</span>
+                <span className="pr-4 z-10">Tailwind</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {<GithubIcon link="https://github.com/Dawit212119/WorldWise" />}
+                {
+                  <GithubIcon link="https://github.com/Dawit212119/Anbessa-Bus" />
+                }
                 <a
-                  href="https://worldwisetour.netlify.app/"
-                  target={"_blank"}
+                  // href="https://mern-esate-fb5y.onrender.com"
+                  // target={"_blank"}
                   rel="noreferrer"
                 >
                   <ExternalLink url={""} router={router} />
@@ -532,27 +591,29 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
-        {/* // ?  Project  3*/}
+        ///////////////////////////////
         <div
           data-aos="fade-up"
-          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
+          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
         >
           {/* Left image */}
           <div
             className="hidden bg-AAprimary z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center"
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
-            <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"https://goodpizza.netlify.app/"}>
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <a
+                // href={"https://mern-esate-fb5y.onrender.com"}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div
-                  // onClick={}
-                  className="absolute w-full h-full rounded text-green-500
-           transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
-              </Link>
-
+              </a>
               <Img
-                src={"pizza.png"}
+                src={"User.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -562,54 +623,71 @@ export default function SomethingIveBuilt() {
           {/* right Content */}
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0">
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full text-green-500 opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"pizza.png"}
+                  src={".png"}
                   alt={"Project Screen shot"}
-                  className={`w-full h-full `}
+                  className={`w-full h-full`}
                 />
               </div>
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end space-y-3"
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
-              <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-green-500 text-base">Recent Project</span>
-                <Link href={"/typing"}>
-                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Fast React Pizza
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-green-500 text-base"></span>
+                <a
+                  href="https://mern-esate-fb5y.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className=" md:text-gray-200 text-green-500 font-bold text-xl hover:cursor-pointer">
+                    User
                   </span>
-                </Link>
+                </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This is a project that I am still working on and continuously
-                  expanding. My goal is to broaden its{" "}
-                  <span className="text-green-500">scope</span> and{" "}
-                  <span className="text-green-500">functionality</span>
-                  functionality to make it more comprehensive and impactful.
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
+                  I am working on a connected system where{" "}
+                  <span className="text-green-500">users</span> can fill out
+                  route forms, sign up, sign in, and view their route status.
+                  This information is sent to the admin side as notifications,
+                  allowing administrators to identify and manage the most needed
+                  routes efficiently.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-end"
+               text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">React</span>
-                <span className="pr-4 z-10">Tailwind CSS</span>
+                <span className="pr-4 z-10">Reactjs</span>
+                <span className="pr-4 z-10">Nodejs</span>
+                <span className="pr-4 z-10">Expressjs</span>
+                <span className="pr-4 z-10">MongoDB</span>
+                <span className="pr-4 z-10">Tailwind</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/Dawit212119/Pizza" />
-                <ExternalLink url={"typing"} router={router} />
+                {<GithubIcon link="https://github.com/Dawit212119/User" />}
+                <a
+                  // href="https://mern-esate-fb5y.onrender.com"
+                  // target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <ExternalLink url={""} router={router} />
+                </a>
               </div>
             </div>
           </div>
         </div>
-
+        {/* // TODO : to here  */}
+        {/* // ?  Project  1 Ens Vision */}
+        {/* // ?  Project 2 - FeverTokens */}
+        {/* // ?  Project  3*/}
         {/* // ?  Project 4 */}
         <div
           data-aos="fade-up"
@@ -655,7 +733,7 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-green-500 text-base">Recent Project</span>
+                <span className="text-green-500 text-base">Project</span>
                 <Link href={""}>
                   <span className=" md:text-gray-200 text-green-500 font-bold text-xl hover:cursor-pointer">
                     X-clone
@@ -706,103 +784,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
-
         {/* // ? Project 5 */}
-        <div
-          data-aos="fade-up"
-          className="relative md:grid md:grid-cols-12 w-full md:h-96"
-        >
-          {/* Left image */}
-          <div
-            className="hidden bg-AAprimary z-10  py-4 
-          absolute md:grid grid-cols-12 w-full h-full  content-center"
-          >
-            <div className="relative rounded w-full h-full col-span-7 ">
-              <a
-                href="https://www.haircut.ma"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <div
-                  // onClick={}
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
-              </a>
-
-              <Img
-                src={"hairstore.png"}
-                alt={"Project Screen shot"}
-                className={`w-full rounded h-full `}
-              />
-            </div>
-          </div>
-
-          {/* right Content */}
-          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
-            {/* background for text in mobile responsive */}
-            <div className="absolute w-full h-full bg-opacity-70 z-0">
-              <div className="relative w-full h-full">
-                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
-                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
-                  src={"hairstore.png"}
-                  alt={"Project Screen shot"}
-                  className={`w-full h-full `}
-                />
-              </div>
-            </div>
-            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
-              <div className="w-full"></div>
-              <span className="text-green-500 sm:text-lg bg-AAprimary px-2 py-1 rounded">
-                In initiation...
-              </span>
-            </div>
-            <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
-            >
-              <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-green-500 text-base">Project</span>
-                <a href="" rel="noreferrer">
-                  <span className=" md:text-gray-200 text-green-500 font-bold text-xl hover:cursor-pointer">
-                    Haircut store
-                  </span>
-                </a>
-              </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This is a simple{" "}
-                  <span className="text-green-500">barber shop website </span>{" "}
-                  that I built for a local barber in our area. The website was
-                  created using only{" "}
-                  <span className="text-green-500">HTML</span>
-                  and CSS when I was
-                  <span className="text-green-500">beginning</span> to learn web
-                  development. The goal was to provide an online presence for
-                  the barber, showcasing key services such as haircuts, beard
-                  trims, and shaves. It features a clean, easy-to-navigate
-                  layout with a focus on essential information, allowing
-                  potential clients to explore the services offered and learn
-                  more about the business. Building this project helped me
-                  improve my understanding of HTML structure, CSS styling, and
-                  basic web design principles.
-                </p>
-              </div>
-              <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-end"
-              ></ul>
-              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/Dawit212119/HairStore" />
-                <a href="" rel="noreferrer">
-                  <ExternalLink url={""} router={router} />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* // ?  Project 6 */}
         {/* <div
           data-aos="fade-up"
@@ -832,7 +814,6 @@ export default function SomethingIveBuilt() {
               />
             </div>
           </div> */}
-
         {/* right Content */}
         {/* <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
             {/* background for text in mobile responsive */}
@@ -847,7 +828,6 @@ export default function SomethingIveBuilt() {
                 />
               </div>
             </div> */}
-
         {/* <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
             col-span-8 flex flex-col items-start  sm:space-y-3 md:order-1"
