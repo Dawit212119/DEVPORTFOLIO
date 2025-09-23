@@ -591,7 +591,6 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
-        ///////////////////////////////
         <div
           data-aos="fade-up"
           className="relative md:grid md:grid-cols-12 w-full md:h-96  "
